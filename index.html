@@ -1,1 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171b2e">
+  <meta name="description" content="Ahmed's indie game developer portfolio. Explore games and projects.">
+  <title>Ahmed — Game Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="site-header wrap">
+    <a class="logo" href="#" aria-label="Ahmed home"><span class="logo-mark">A</span><span>AHMED<span class="dot">.</span></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#intro">Intro</a>
+      <a href="#games">Games</a>
+      <a href="#upcoming">Coming soon</a>
+    </nav>
+    <a class="itch-link" href="https://uaeaven.itch.io/" target="_blank" rel="noopener">ITCH.IO ↗</a>
+  </header>
 
+  <main>
+    <section class="hero wrap" id="intro">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> INDIE GAME DEVELOPER</p>
+        <h1>Hi, I'm<br><span class="accent">Ahmed</span><span class="cursor">_</span></h1>
+        <p class="intro-text">I make games, experiment with ideas, and bring little worlds to life — one pixel at a time.</p>
+        <div class="tags" aria-label="Interests">
+          <span>GAME DEV</span><span>PIXEL WORLDS</span><span>STORYTELLING</span>
+        </div>
+        <a class="primary-btn" href="#games">EXPLORE MY GAMES <span>↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Decorative pixel art landscape">
+        <div class="sun"></div><div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
+        <div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
+        <div class="ground"></div><div class="tiny-person"><i></i></div>
+        <div class="art-caption">FIG. 01 — A NEW WORLD</div>
+      </div>
+      <div class="hero-bottom"><span>PLAYER 01</span><span>WELCOME TO MY CORNER OF THE INTERNET</span><span>♥ 100</span></div>
+    </section>
+
+    <section class="section wrap" id="games">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE GAME LIBRARY</p><h2>My <span class="accent">games</span></h2></div>
+        <span class="counter">01 / IN THE LIBRARY</span>
+      </div>
+      <article class="game-card">
+        <a class="game-art dawn-art" href="https://uaeaven.itch.io/" target="_blank" rel="noopener" aria-label="Visit Ahmed's itch.io page">
+          <span class="art-label">FEATURED GAME</span>
+          <span class="moon"></span><span class="dawn-hill hill-a"></span><span class="dawn-hill hill-b"></span>
+          <span class="dawn-title">DAWN<br>EATER</span>
+          <span class="pixel-figure"></span>
+          <span class="art-bottom">A JOURNEY INTO THE UNKNOWN</span>
+        </a>
+        <div class="game-info">
+          <div class="game-meta"><span class="genre">INDIE GAME</span><span class="game-number">GAME_001</span></div>
+          <h3>Dawn Eater</h3>
+          <p>Sail the underworld. Fight for dawn.</p>
+          <a class="text-link" href="https://uaeaven.itch.io/" target="_blank" rel="noopener">VIEW ON ITCH.IO <span>↗</span></a>
+        </div>
+      </article>
+      <p class="small-note">More details and games will appear here as the library grows.</p>
+    </section>
+
+    <section class="section wrap upcoming" id="upcoming">
+      <div class="section-heading">
+        <div><p class="eyebrow">WORK IN PROGRESS</p><h2>More worlds<br><span class="accent">loading...</span></h2></div>
+        <span class="loading-chip"><span class="blink"></span> IN DEVELOPMENT</span>
+      </div>
+      <div class="coming-card">
+        <div class="pixel-loader" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div><h3>Something is brewing</h3><p>New games are on the way. Check back soon!</p></div>
+        <span class="coming-stamp">COMING<br>SOON</span>
+      </div>
+    </section>
+
+    <section class="profile-strip wrap">
+      <div><p class="eyebrow">FOLLOW THE JOURNEY</p><h2>Find me on <span class="accent">itch.io</span></h2></div>
+      <a class="primary-btn" href="https://uaeaven.itch.io/" target="_blank" rel="noopener">uaeaven.itch.io ↗</a>
+    </section>
+  </main>
+
+  <footer class="wrap footer"><span>© <span id="year"></span> AHMED</span><span>MADE WITH <span class="accent">♥</span> AND PIXELS</span><a href="#intro">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
